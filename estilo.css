@@ -1,0 +1,78 @@
+/* tirar a opinião do browser (tudo fica no topo para esquerda */
+*{                    
+    padding: 0;
+    margin: 0;
+}
+
+/* limitar o tamanho da pag */
+body{
+    width: 100vw;
+}
+
+.header-contener{
+    background-image: url( https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+    background-size: cover;
+    height: 580px;
+}
+
+.flex{
+    display: flex;
+    justify-content: right;
+    gap: 490px;
+    padding-top: 16px;
+}
+img{
+    width: 200px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 96px;
+}
+.a{
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.b{
+    display: flex;
+    width: 408px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    justify-content: space-between;
+}
+.icone{
+    width: 24px;
+    height: 24px; 
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+#pesquisa{
+    border: none;
+    padding-right: 110px;
+    outline: none;
+
+}
+
+#c{
+    border: none;
+    border-radius: 50%;
+    background-color: red;
+    color: #ffffff;
+    font-size: 30px;
+    height: 38px;
+    width: 38px;
+    margin-right:8px;
+    margin-top: 5px;
+    
+
+}
+.link{
+    color: #ffffff;
+}
