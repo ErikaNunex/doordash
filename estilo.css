@@ -6,7 +6,7 @@
 
 /* limitar o tamanho da pag */
 body{
-    width: 100vw;
+    width: 100%;
 }
 
 .header-contener{
@@ -76,3 +76,39 @@ img{
 .link{
     color: #ffffff;
 }
+
+/*-------- MAIN- ---- */
+.main-contener{
+    margin:100px 0 50px 50px;
+}
+
+.flex3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-img{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.titulo{
+    font-size: 32px;
+    font-weight: bold;
+}
+.texto{
+    font-size: 18px;
+
+}
+.alinhar-texto{
+    text-align: center;
+}
+
+.links{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
