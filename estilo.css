@@ -111,4 +111,34 @@ img{
     font-weight: bold;
 }
 
+/* -----------ARTICLE 1--------- */
 
+.article-contener{
+    background-color: #ffffff;
+    margin-bottom: -30px;
+}
+
+.flex4{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    
+
+}
+
+.flex-article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.salada{
+    width: 712px;
+    height: 513px;
+}
+ /* -----PARTE2-------S */
+ .parte2-contener{
+    background-color: rgb(255, 240, 237);
+    padding-top: 100px;
+ }
